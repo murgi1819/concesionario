@@ -16,6 +16,7 @@ public class Vehiculo {
 	public double getKilometraje(){
 		return this.kilometraje;
 	}
+	
 	//setter
 	public void setNumRuedas (int numRuedas){
 		this.numRuedas = numRuedas;
