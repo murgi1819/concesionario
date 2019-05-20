@@ -18,5 +18,31 @@ public class Empleado extends Persona{
 	public void subirSueldo (double aumento) {
 		this.sueldo=sueldo+aumento;
 	}
+
+	public Date getFechaContrato() {
+		return fechaContrato;
+	}
+
+	public void setFechaContrato(Date fechaContrato) {
+		this.fechaContrato = fechaContrato;
+	}
+
+	public double getSueldo() {
+		return sueldo;
+	}
+
+	public void setSueldo(double sueldo) {
+		this.sueldo = sueldo;
+	}
+
+	public Empleado getSupervisor() {
+		return supervisor;
+	}
+
+	public void setSupervisor(Empleado supervisor) {
+		this.supervisor = supervisor;
+	}
+	
+	
 	
 }
