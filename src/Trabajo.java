@@ -6,7 +6,8 @@ public class Trabajo {
 	private String incidencias;
 	
 	public double valorar() {
-		return 0;
+		double resultado = Math.random()*500;
+		return resultado;
 		
 	}
 }
