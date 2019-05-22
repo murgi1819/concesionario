@@ -14,4 +14,13 @@ public class Cliente  extends Persona  {
 		super(nombre,edad);
 		this.fechaAlta = fechaAlta;
 	}
+//METODO GET Y SET DE FECHA
+	public Date getFechaAlta() {
+		return fechaAlta;
+	}
+
+	public void setFechaAlta(Date fechaAlta) {
+		this.fechaAlta = fechaAlta;
+	}
+	
 }
