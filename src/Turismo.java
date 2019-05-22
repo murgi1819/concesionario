@@ -5,7 +5,7 @@ public class Turismo extends Motorizado{
 	private String color;
 	
 	public void aparca() {
-		
+		System.out.println("Aparcado");
 	}
 
 }
