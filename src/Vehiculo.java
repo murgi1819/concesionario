@@ -1,6 +1,16 @@
 public class Vehiculo {
 
-	
+	private int numRuedas;
+
+	  private int peso;
+
+	  private int numPlazas;
+
+	  private double kilometraje;
+
+	  public boolean circula(int distancia) {
+		  return false;
+	  }
 	
 	
 	//getter
