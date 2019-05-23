@@ -5,6 +5,8 @@ public class Factura
 	private Trabajo trabajo;
 	public Cliente cliente()
 	{
-		return;
+		/* No se como devolver un cliente, este metodo aun esta pendiente de terminar */
+		Cliente c = new Cliente(null, null, 0);
+		return c;
 	}
 }
