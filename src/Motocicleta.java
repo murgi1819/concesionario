@@ -10,6 +10,7 @@ public class Motocicleta extends Motorizado {
 	}
 	
 	public void bloquea(boolean estado) {
+		this.bloqueada=estado;
 		
 	}
 }
