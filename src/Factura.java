@@ -11,6 +11,30 @@ public class Factura
 		this.trabajo = trabajo;
 	}
 
+	public double getImporte() {
+		return importe;
+	}
+
+	public void setImporte(double importe) {
+		this.importe = importe;
+	}
+
+	public boolean isPagada() {
+		return pagada;
+	}
+
+	public void setPagada(boolean pagada) {
+		this.pagada = pagada;
+	}
+
+	public Trabajo getTrabajo() {
+		return trabajo;
+	}
+
+	public void setTrabajo(Trabajo trabajo) {
+		this.trabajo = trabajo;
+	}
+
 	public Cliente cliente()
 	{
 		return (trabajo.getVehiculo()).getPropietario();
